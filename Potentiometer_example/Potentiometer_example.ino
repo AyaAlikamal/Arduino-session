@@ -13,7 +13,6 @@ void setup() {
 }
 
 void loop() {
-
   Inputvalue = analogRead(InputPin);
   Serial.print("pot value");
   Serial.println(Inputvalue);

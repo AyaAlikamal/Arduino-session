@@ -6,12 +6,10 @@ long duration;
 float distance;
 
 void setup() {
-  
   Serial.begin(9600);
 }
 
 void loop() {
-
   pinMode(PingPin, OUTPUT);
   digitalWrite(PingPin, LOW);
   delayMicroseconds(2);

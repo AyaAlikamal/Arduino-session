@@ -5,7 +5,7 @@ int degree, input;
 void setup() {
 
   Serial.begin(9600);
- Serial.println("Enter your degree");
+ Serial.println("Enter your degree:");
 }
 
 void loop() {

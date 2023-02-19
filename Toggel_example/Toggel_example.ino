@@ -11,10 +11,8 @@ void setup() {
 void loop() {
   digitalRead(InputPin);
   if (digitalRead(InputPin) == 1) {
-
     digitalWrite(OutputPin, 1);
   } else {
-
     digitalWrite(OutputPin, 0);
   }
 }

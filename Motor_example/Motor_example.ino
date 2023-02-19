@@ -1,5 +1,5 @@
-#include <Servo.h>
 #include <Arduino.h>
+#include <Servo.h>
 
 #define input_pin A0
 Servo myservo;
@@ -10,9 +10,8 @@ void setup() {
 }
 
 void loop() {
- val = analogRead(input_pin);
- val = map (val, 0,1023,0,180);
- myservo.write(val);
- delay(15);
-
+  val = analogRead(input_pin);
+  val = map(val, 0, 1023, 0, 180);
+  myservo.write(val);
+  delay(15);
 }
